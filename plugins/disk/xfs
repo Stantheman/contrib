@@ -49,7 +49,7 @@ my %runtime_stats = (
   "bmbt2" => ["xs_bmbt_2_lookup","xs_bmbt_2_compare","xs_bmbt_2_insrec","xs_bmbt_2_delrec","xs_bmbt_2_newroot","xs_bmbt_2_killroot","xs_bmbt_2_increment","xs_bmbt_2_decrement","xs_bmbt_2_lshift","xs_bmbt_2_rshift","xs_bmbt_2_split","xs_bmbt_2_join","xs_bmbt_2_alloc","xs_bmbt_2_free","xs_bmbt_2_moves"],
   "abtc2" => ["xs_abtc_2_lookup","xs_abtc_2_compare","xs_abtc_2_insrec","xs_abtc_2_delrec","xs_abtc_2_newroot","xs_abtc_2_killroot","xs_abtc_2_increment","xs_abtc_2_decrement","xs_abtc_2_lshift","xs_abtc_2_rshift","xs_abtc_2_split","xs_abtc_2_join","xs_abtc_2_alloc","xs_abtc_2_free","xs_abtc_2_moves"],
   "abtb2" => ["xs_abtb_2_lookup","xs_abtb_2_compare","xs_abtb_2_insrec","xs_abtb_2_delrec","xs_abtb_2_newroot","xs_abtb_2_killroot","xs_abtb_2_increment","xs_abtb_2_decrement","xs_abtb_2_lshift","xs_abtb_2_rshift","xs_abtb_2_split","xs_abtb_2_join","xs_abtb_2_alloc","xs_abtb_2_free","xs_abtb_2_moves"],
-  "qm" => ["xs_qm_dquot","xs_qm_dquot_unused"],
+  "qm" => ["xs_qm_dqreclaims", "xs_qm_dqreclaim_misses", "xs_qm_dquot_dups", "xs_qm_dqcachemisses", "xs_qm_dqcachehits", "xs_qm_dqwants", "xs_qm_dquot", "xs_qm_dquot_unused"],
   "xpc" => ["xs_xstrat_bytes","xs_write_bytes","xs_read_bytes"],
   "debug" => ["debug"]
 );
